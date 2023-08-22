@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-COMMERCE </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <!-- craeazione barra di navigazione  -->
+    <nav class="navbar" style="background-color: rgb(214, 148, 243);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="http://127.0.0.1:8000">
+                <img src="../static/luca-removebg-preview.png" alt="Logo" width="40" height="34"
+                    class="d-inline-block align-text-top">
+                <span class="text-white fw-bold lead" style="font-family:verdana">E-COMMERCE</span>
+            </a>
+            <img style ="width: 150px"    src="../static/logo_generation.jpeg" alt="">
+            <!-- creazione bottoni  ACCEDI API CHIEDI AIUTO-->
+            <div class="btn-group">
+                <a href="http://127.0.0.1:8000/login" type="bottom" class="btn" style="background-color:#f3ebf3"
+                    aria-current="page">Admin</a>
+                <div class="btn-group" role="group">
+                    <!-- creazione bottone a tendina per scaricare APII -->
+                    <button type="button" class="btn dropdown-toggle" style="background-color:#f3ebf3"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        API
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item"
+                                href="http://localhost:8000/api?dipartimento=magazzino">Magazzino</a></li>
+                        <li><a class="dropdown-item" href="http://localhost:8000/api?dipartimento=vendite">Vendite</a>
+                        </li>
+                        <li><a class="dropdown-item"
+                                href="http://localhost:8000/api?dipartimento=marketing">Marketing</a></li>
+                    </ul>
+                </div>
+                <a href="http://127.0.0.1:8000/help" class="btn " style="background-color:#f3ebf3">Chiedi Aiuto</a>
+            </div>
+        </div>
+        </div>
+
+    </nav>
+
+    <div style="background-color:#f3ebf3;">
+        <div class="container text-center">
+            <!-- creazione titolo principale -->
+            <h1>PANNELLO DI CONTROLLO</h1>
+
+            <!-- creazione sottotitoletto....cit -->
+            <p class="container text-center lead">
+                Attraverso questa pagina del sito puoi ricercare le analisi relative alle varie sezioni del tuo
+                E-COMMERCE <br>
+
+            </p>
+
+            <!-- creazione sotto sessioni per datamart -->
+            <div class="row my-4">
+                <!-- vendite -->
+                <div class="col">
+                    <div class="card" style="width: 26rem;">
+                        <img src="../static/super2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Vendite</h5>
+                            <p class="card-text">Analisi per Responsabile Vendite</p>
+                            <a href="http://127.0.0.1:8000/vendite" class="btn btn-primary">Scopri</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Magazzino -->
+                <div class="col">
+                    <div class="card" style="width: 26rem;">
+                        <img src="../static/super3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Magazzino</h5>
+                            <p class="card-text">Analisi per Responsabile Magazzino</p>
+                            <a href="http://127.0.0.1:8000/magazzino" class="btn btn-primary">Scopri</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Marketing -->
+                <div class="col">
+                    <div class="card" style="width: 26rem;">
+                        <img src="../static/super.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Marketing</h5>
+                            <p class="card-text">Analisi per Responsabile Marketing</p>
+                            <a href="http://127.0.0.1:8000/marketing" class="btn btn-primary">Scopri</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- creazione blocco testo -->
+            <div class="row text-center">
+                <!-- vendite -->
+                <div class="col">
+                    <p align="justify"  style="font-size: large;">La sezione Analisi Vendite è stata progettata per offrire una panoramica completa
+                        delle
+                        nostre attività di vendita online. Attraverso strumenti di monitoraggio e reportistica avanzati,
+                        possiamo analizzare dettagliatamente i dati relativi alle vendite, ai prodotti e ai clienti, al
+                        fine di identificare tendenze, individuare opportunità di crescita e migliorare la nostra
+                        strategia di vendita.</p>
+                </div>
+
+                <!-- Magazzino -->
+                <div class="col">
+                    <p align="justify"  style="font-size: large;">La sezione Analisi Magazzino è progettata per offrire una panoramica completa
+                        delle
+                        attività all'interno del nostro magazzino. Avremo accesso a informazioni dettagliate sulle
+                        quantità di stock disponibili, la rotazione degli articoli, i tempi di resupply e altri
+                        parametri chiave che influenzano le nostre operazioni.</p>
+                </div>
+
+
+                <!-- Marketing -->
+                <div class="col">
+                    <p align="justify" style="font-size: large;">La sezione Analisi Marketing è progettata per offrire una panoramica completa
+                        delle
+                        nostre attività promozionali. Avremo accesso a dati dettagliati sulle campagne pubblicitarie, il
+                        traffico del sito web, le conversioni, i tassi di click e altre metriche chiave che ci
+                        aiuteranno a valutare l'impatto delle nostre iniziative di marketing.</p>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- link di collegamento con bootstrap -->
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+                crossorigin="anonymous"></script>
+        </div>
+        <!-- creazione footer -->
+        <footer class=" text-dark" style="background-color: #d694f3;">
+            <p class="container text-center lead" align="justify">
+               <span class = "fw-bold">Su di Noi:</span> <br>
+                Siamo una giovane e dinamica squadra che lavora per Generation, specializzata nell'analisi e nell'ingegneria dei dati con un Team di quattro esperti composto da: Luca Albertini, Federica Raimondo, Enrico Civetti e Gemma Rea. 
+                Ci dedichiamo a fornire soluzioni innovative e scalabili per le più sfidanti problematiche legate all'analisi dei dati. <br>
+            </p>
+            <h6 class="lead text-center" style="font-size: small">&copy; 2023 Analisi dei Dati. Tutti i diritti riservati |     Termini d'uso |     Privacy |   Cookies</h6>
+        </footer>
+</body>
+</div>
+
+</html>
