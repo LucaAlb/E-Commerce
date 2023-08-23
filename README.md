@@ -3,7 +3,7 @@ Analisi di una Piattaforma di E-Commerce
 
 **INTRODUZIONE**
 
-Vi verrà illustrerà l’analisi svolta sul dataset relativo ad un **E-commerce**, 
+Il progetto ha coinvolto un team di 4 persone che ora vi illustrerà l’analisi svolta sul dataset relativo ad un **E-commerce**, 
 i dati sono stati presi in origine da un dataset disponibile su **bigQuery**, 
 e come vedremo più avanti abbiamo deciso di creare i collegamenti tra i diversi dataset riuscendo a captare 3 tipologie di analisi, 
 una analisi relativa al **magazzino**
