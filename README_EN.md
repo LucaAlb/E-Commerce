@@ -3,7 +3,7 @@ Analysis of an E-Commerce Platform
 
 **INTRODUCTION**
 
-We will present the analysis carried out on the dataset related to an **E-commerce**,
+The project involved a team of 4 individuals who will now present the analysis conducted on the dataset related to an **E-commerce**,
 the data was originally sourced from a dataset available on **bigQuery**,
 and as we will see later, we decided to establish connections among different datasets, managing to capture three types of analysis,
 one related to the **warehouse**
