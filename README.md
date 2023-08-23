@@ -13,11 +13,13 @@ Abbiamo estratto i dataset tramite linguaggio **SQL** utilizzando colab riportan
 Infine abbiamo reso possibile l’analisi grazie allo strumento di visualizzazione **TABLEAU**
 in modo da  esplorare al meglio questa realtà e poter dare anche a voi una panoramica generale.
 
-![drawSQL_E-Commerce](https://github.com/LucaAlb/E-Commerce/assets/130977967/c326cb55-435d-4e5c-ab74-dd3f569075ba)
+![drawSQL_E-Commerce](https://github.com/LucaAlb/E-Commerce/assets/130977967/0158fd4b-b78a-4fdd-91ab-b501d49050dd)
+
 
 **SITO**
 
 Per permettere ad un eventuale utente o ad un addetto ai lavori di poter scegliere liberamente il reparto di proprio interesse o semplicemente per poter interagire con le nostre analisi, abbiamo creato  tramite l’utilizzo di Visual Studio Code e il framework Flask  il sito  dell’ E-Commerce.
 Come potete vedere in questo sito abbiamo deciso di creare una suddivisione che permette la scelta dei tre reparti da visionare: magazzino, marketing e vendite e dà la possibilità di interrogare liberamente ognuno di essi.
 
-![Panel Control](https://github.com/LucaAlb/E-Commerce/assets/130977967/916e0aa0-14b4-4f52-a50c-d246d0029768)
+![Panel Control](https://github.com/LucaAlb/E-Commerce/assets/130977967/ac93ee55-b182-4cbb-a7d4-9a392216be36)
+
