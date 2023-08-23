@@ -13,11 +13,13 @@ We extracted the datasets using **SQL** language through Colab and then transfer
 Finally, we enabled the analysis through the **TABLEAU** visualization tool
 in order to explore this reality to the fullest and provide you with a comprehensive overview.
 
-![drawSQL_E-Commerce](https://github.com/LucaAlb/E-Commerce/assets/130977967/d677fc35-2fff-4bd5-9dc2-b26a63b689c7)
+![drawSQL_E-Commerce](https://github.com/LucaAlb/E-Commerce/assets/130977967/0d9aee1a-4553-46d6-9090-54e3efbfce49)
+
 
 **WEBSITE**
 
 To allow a potential user or a professional to freely choose the department of their interest or simply to interact with our analyses, we created the E-Commerce website using Visual Studio Code and the Flask framework.
 As you can see on this website, we decided to create a division that enables the selection of the three departments to view: warehouse, marketing, and sales, and it provides the opportunity to freely query each of them.
 
-![Panel Control](https://github.com/LucaAlb/E-Commerce/assets/130977967/f29d5469-22a3-4876-8340-52ce47bbdb2a)
+![Panel Control](https://github.com/LucaAlb/E-Commerce/assets/130977967/bced2e39-eef1-4ca6-8814-42c77ef7611e)
+
